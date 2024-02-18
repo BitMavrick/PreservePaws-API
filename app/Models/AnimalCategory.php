@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class AnimalCategory extends Model
 {
     use HasFactory;
+
+    public function animalType()
+    {
+        return $this->HasMany(AnimalType::class);
+    }
 }
