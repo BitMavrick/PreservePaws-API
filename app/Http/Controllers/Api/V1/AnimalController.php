@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api\V1;
 
 use App\Models\Animal;
 use App\Http\Requests\StoreAnimalRequest;
 use App\Http\Requests\UpdateAnimalRequest;
+use App\Http\Controllers\Controller;
 
 class AnimalController extends Controller
 {
@@ -15,7 +16,7 @@ class AnimalController extends Controller
      */
     public function index()
     {
-        //
+        return Animal::all();
     }
 
     /**
