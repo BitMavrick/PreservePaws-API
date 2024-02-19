@@ -20,9 +20,9 @@ return new class extends Migration
             $table->text("animal_fact");
             $table->string("population_status");
             $table->integer("population_count_est");
-            $table->text("habitat");
-            $table->text("conservation_efforts");
-            $table->text("threat_factors");
+            $table->text("habitat")->nullable();
+            $table->text("conservation_efforts")->nullable();
+            $table->text("threat_factors")->nullable();
             $table->timestamps();
         });
     }
