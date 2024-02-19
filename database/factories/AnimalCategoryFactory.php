@@ -16,8 +16,13 @@ class AnimalCategoryFactory extends Factory
      */
     public function definition()
     {
+        // 1. Mammals, 2. Birds, 3.Reptiles, 4.Amphibians, 5.Fish, 6.Invertebrates, 7. Unknows
+
+        $category = $this->faker->randomElement("Mammals", "Birds", "Reptiles", "Fish", "nvertebrates", "Unknown");
+
+
         return [
-            //
+            "category_name" => $category
         ];
     }
 }

@@ -17,7 +17,9 @@ class AnimalTypeFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'type_name' => $this->faker->word(),
+            'animal_id' => \App\Models\Animal::factory(),
+            'animal_category_id' => \App\Models\AnimalCategory::factory(),
         ];
     }
 }

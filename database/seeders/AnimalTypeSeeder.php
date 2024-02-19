@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\AnimalType;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,6 +15,6 @@ class AnimalTypeSeeder extends Seeder
      */
     public function run()
     {
-        //
+        AnimalType::factory()->count(20)->create();
     }
 }

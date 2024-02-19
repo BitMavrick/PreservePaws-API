@@ -15,7 +15,9 @@ return new class extends Migration
     {
         Schema::create('animal_types', function (Blueprint $table) {
             $table->id();
-            $table->string("type_name");
+            $table->string("type_name"); // Types are based on the category
+            $table->integer("animal_id");
+            $table->integer("animal_category_id");
             $table->timestamps();
         });
     }

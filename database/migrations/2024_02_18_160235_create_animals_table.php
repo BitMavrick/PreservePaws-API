@@ -24,6 +24,7 @@ return new class extends Migration
             $table->text("habitat"); // Brief about where they live
             $table->text("conservation_efforts")->default("Unknown"); // Description of ongoing conservation efforts or initiatives for the species.
             $table->text("threat_factors")->default("Unknown"); // Describe the reasone why this animal becoming extincts
+            $table->integer("animal_type_id");
             $table->timestamps();
         });
     }
