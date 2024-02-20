@@ -16,6 +16,7 @@ class AnimalController extends Controller
      */
     public function index()
     {
+        // Returning all the animal list
         return Animal::all();
     }
 
