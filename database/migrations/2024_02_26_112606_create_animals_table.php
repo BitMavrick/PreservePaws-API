@@ -10,6 +10,7 @@ return new class extends Migration
     {
         Schema::create('animals', function (Blueprint $table) {
             $table->id();
+            $table->integer('type_id');
             $table->date("updated_date");
             $table->string("image_url");
             $table->string("name");

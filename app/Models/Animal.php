@@ -8,4 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Animal extends Model
 {
     use HasFactory;
+
+    // * Many-to-one relationship between Animal and Type
+
+    public function types()
+    {
+        return $this->belongsTo(Type::class);
+    }
 }

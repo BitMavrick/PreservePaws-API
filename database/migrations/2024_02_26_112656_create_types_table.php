@@ -10,7 +10,8 @@ return new class extends Migration
     {
         Schema::create('types', function (Blueprint $table) {
             $table->id();
-            $table->string('type');
+            $table->integer('category_id');
+            $table->string('type'); // * Type is the sub-category of Category
             $table->timestamps();
         });
     }
