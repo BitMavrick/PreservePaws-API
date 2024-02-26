@@ -92,7 +92,7 @@ class TypeFactory extends Factory
                 $types = ['Unknown'];
         }
 
-        // * Randomly selected type based on this category
+        // * Randomly selected type based on its category
         $type = $this->faker->unique()->randomElement($types);
 
         return [
