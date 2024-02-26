@@ -10,7 +10,7 @@ class TypeSeeder extends Seeder
 {
     public function run()
     {
-        // * Just chill and seeding -------
+        // ! Have some error in this seeding logic -------
         Type::factory()->count(100)->create();
     }
 }
