@@ -8,6 +8,14 @@ class AnimalResource extends JsonResource
 {
     public function toArray($request)
     {
-        return parent::toArray($request);
+        return [
+            'id' => $this->id,
+            'recordDate' => $this->updated_date,
+            'imageUrl' => $this->image_url,
+            'name' => $this->name,
+            'scientificName' => $this->sci_name,
+            'category' => $this->type->category->category,
+            'type' => $this->type->type,
+        ];
     }
 }

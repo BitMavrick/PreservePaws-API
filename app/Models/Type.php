@@ -11,7 +11,7 @@ class Type extends Model
 
     // * One-to-many relationship between Categoy and Type
 
-    public function categories()
+    public function category()
     {
         return $this->belongsTo(Category::class);
     }

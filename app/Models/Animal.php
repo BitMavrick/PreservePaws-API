@@ -11,7 +11,7 @@ class Animal extends Model
 
     // * Many-to-one relationship between Animal and Type
 
-    public function types()
+    public function type()
     {
         return $this->belongsTo(Type::class);
     }

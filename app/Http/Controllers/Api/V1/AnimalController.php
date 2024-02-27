@@ -6,13 +6,13 @@ use App\Models\Animal;
 use App\Http\Requests\StoreAnimalRequest;
 use App\Http\Requests\UpdateAnimalRequest;
 use App\Http\Controllers\Controller;
-
+use App\Http\Resources\V1\AnimalCollection;
 
 class AnimalController extends Controller
 {
     public function index()
     {
-        return Animal::all();
+        return new AnimalCollection(Animal::all());
     }
 
 
