@@ -10,79 +10,44 @@ use App\Http\Controllers\Controller;
 
 class AnimalController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         return Animal::all();
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function create()
     {
-        //
+        // * Create is not important for Api [We will delete it in some point.]
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreAnimalRequest  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(StoreAnimalRequest $request)
     {
-        //
+        // * Store is not important for Api [We will delete it in some point.]
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Animal  $animal
-     * @return \Illuminate\Http\Response
-     */
+
     public function show(Animal $animal)
     {
-        //
+        return $animal;
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Animal  $animal
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit(Animal $animal)
     {
-        //
+        // * Edit is not important for Api [We will delete it in some point.]
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateAnimalRequest  $request
-     * @param  \App\Models\Animal  $animal
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(UpdateAnimalRequest $request, Animal $animal)
     {
-        //
+        // * update is not important for Api [We will delete it in some point.]
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Animal  $animal
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy(Animal $animal)
     {
-        //
+        // * destroy is not important for Api [We will delete it in some point.]
     }
 }
