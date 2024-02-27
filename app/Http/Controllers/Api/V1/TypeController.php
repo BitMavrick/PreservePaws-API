@@ -1,12 +1,13 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Api\V1;
 
-use App\Models\Animal;
-use App\Http\Requests\StoreAnimalRequest;
-use App\Http\Requests\UpdateAnimalRequest;
+use App\Models\Type;
+use App\Http\Requests\StoreTypeRequest;
+use App\Http\Requests\UpdateTypeRequest;
+use App\Http\Controllers\Controller;
 
-class AnimalController extends Controller
+class TypeController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -31,10 +32,10 @@ class AnimalController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \App\Http\Requests\StoreAnimalRequest  $request
+     * @param  \App\Http\Requests\StoreTypeRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreAnimalRequest $request)
+    public function store(StoreTypeRequest $request)
     {
         //
     }
@@ -42,10 +43,10 @@ class AnimalController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Animal  $animal
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function show(Animal $animal)
+    public function show(Type $type)
     {
         //
     }
@@ -53,10 +54,10 @@ class AnimalController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Animal  $animal
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function edit(Animal $animal)
+    public function edit(Type $type)
     {
         //
     }
@@ -64,11 +65,11 @@ class AnimalController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \App\Http\Requests\UpdateAnimalRequest  $request
-     * @param  \App\Models\Animal  $animal
+     * @param  \App\Http\Requests\UpdateTypeRequest  $request
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateAnimalRequest $request, Animal $animal)
+    public function update(UpdateTypeRequest $request, Type $type)
     {
         //
     }
@@ -76,10 +77,10 @@ class AnimalController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Animal  $animal
+     * @param  \App\Models\Type  $type
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Animal $animal)
+    public function destroy(Type $type)
     {
         //
     }
