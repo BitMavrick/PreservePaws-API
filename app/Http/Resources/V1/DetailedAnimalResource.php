@@ -4,15 +4,10 @@ namespace App\Http\Resources\V1;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class AnimalResource extends JsonResource
+class DetailedAnimalResource extends JsonResource
 {
     public function toArray($request)
     {
-        /*
-        ? For the list of the animals, I think this limited data should be good.
-        ? More data can lead to more latency which is not good.
-        */
-
         return [
             'id' => $this->id,
             'recordDate' => $this->updated_date,
@@ -22,7 +17,11 @@ class AnimalResource extends JsonResource
             'populationStatus' => $this->population_status,
             'category' => $this->type->category->category,
             'type' => $this->type->type,
-            'EstimatedPopulation' => $this->population_count_est
+            'EstimatedPopulation' => $this->population_count_est,
+            'animalFact' => $this->animal_fact,
+            'habitat' => $this->habitat,
+            'threatFactors' => $this->threat_factors,
+            'conservationEfforts' => $this->conservation_efforts
         ];
     }
 }

@@ -7,6 +7,7 @@ use App\Http\Requests\StoreAnimalRequest;
 use App\Http\Requests\UpdateAnimalRequest;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\V1\AnimalCollection;
+use App\Http\Resources\V1\DetailedAnimalResource;
 
 class AnimalController extends Controller
 {
@@ -30,7 +31,7 @@ class AnimalController extends Controller
 
     public function show(Animal $animal)
     {
-        return $animal;
+        return new DetailedAnimalResource($animal);
     }
 
 
