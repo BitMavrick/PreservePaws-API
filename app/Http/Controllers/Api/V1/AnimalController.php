@@ -12,7 +12,7 @@ class AnimalController extends Controller
 {
     public function index()
     {
-        return new AnimalCollection(Animal::all());
+        return new AnimalCollection(Animal::paginate(25));
     }
 
 
