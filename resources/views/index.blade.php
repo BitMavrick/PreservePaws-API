@@ -14,17 +14,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
 
-	<link rel="stylesheet" href="fonts/icomoon/style.css">
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<link rel="stylesheet" href="/assets/fonts/icomoon/style.css">
+	<link rel="stylesheet" href="/assets/fonts/flaticon/font/flaticon.css">
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
-	<link rel="stylesheet" href="css/tiny-slider.css">
-	<link rel="stylesheet" href="css/aos.css">
-	<link rel="stylesheet" href="css/glightbox.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="/assets/css/tiny-slider.css">
+	<link rel="stylesheet" href="/assets/css/aos.css">
+	<link rel="stylesheet" href="/assets/css/glightbox.min.css">
+	<link rel="stylesheet" href="/assets/css/style.css">
 
-	<link rel="stylesheet" href="css/flatpickr.min.css">
+	<link rel="stylesheet" href="/assets/css/flatpickr.min.css">
 
 
 	<title>Blogy &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
@@ -660,25 +660,18 @@
 						</div>
 
 
-					</div> <!-- /.widget -->
-				</div> <!-- /.col-lg-4 -->
-			</div> <!-- /.row -->
+					</div>
+				</div>
+			</div>
 
 			<div class="row mt-5">
 				<div class="col-12 text-center">
-          <!--
-              **==========
-              NOTE:
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
-              **==========
-            -->
-
             <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a>  Distributed by <a href="https://themewagon.com">ThemeWagon</a> <!-- License information: https://untree.co/license/ -->
             </p>
           </div>
         </div>
-      </div> <!-- /.container -->
-    </footer> <!-- /.site-footer -->
+      </div>
+    </footer>
 
     <!-- Preloader -->
     <div id="overlayer"></div>
@@ -689,17 +682,17 @@
     </div>
 
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/tiny-slider.js"></script>
 
-    <script src="js/flatpickr.min.js"></script>
+    <script src="/assets/js/flatpickr.min.js"></script>
 
 
-    <script src="js/aos.js"></script>
-    <script src="js/glightbox.min.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="/assets/js/aos.js"></script>
+    <script src="/assets/js/glightbox.min.js"></script>
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/assets/js/counter.js"></script>
+    <script src="/assets/js/custom.js"></script>
 
 
   </body>
