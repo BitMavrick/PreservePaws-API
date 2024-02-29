@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<meta name="author" content="BitMavrick">
+	<link rel="shortcut icon" href="/assets/favicon.png">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap5" />
@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="/assets/css/flatpickr.min.css">
 
 
-	<title>Blogy &mdash; Free Bootstrap 5 Website Template by Untree.co</title>
+	<title>PreservePaws-API</title>
 </head>
 <body>
 
@@ -45,51 +45,21 @@
 			<div class="menu-bg-wrap">
 				<div class="site-navigation">
 					<div class="row g-0 align-items-center">
-						<div class="col-2">
-							<a href="index.html" class="logo m-0 float-start">Blogy<span class="text-primary">.</span></a>
+						<div class="col-6">
+							<a href="index.html" class="logo m-0 float-start">PreservePaws<span class="text-primary">-API</span></a>
 						</div>
-						<div class="col-8 text-center">
-							<form action="#" class="search-form d-inline-block d-lg-none">
-								<input type="text" class="form-control" placeholder="Search...">
-								<span class="bi-search"></span>
-							</form>
 
-							<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
-								<li class="active"><a href="index.html">Home</a></li>
-								<li class="has-children">
-									<a href="category.html">Pages</a>
-									<ul class="dropdown">
-										<li><a href="search-result.html">Search Result</a></li>
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="single.html">Blog Single</a></li>
-										<li><a href="category.html">Category</a></li>
-										<li><a href="about.html">About</a></li>
-										<li><a href="contact.html">Contact Us</a></li>
-										<li><a href="#">Menu One</a></li>
-										<li><a href="#">Menu Two</a></li>
-										<li class="has-children">
-											<a href="#">Dropdown</a>
-											<ul class="dropdown">
-												<li><a href="#">Sub Menu One</a></li>
-												<li><a href="#">Sub Menu Two</a></li>
-												<li><a href="#">Sub Menu Three</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li><a href="category.html">Culture</a></li>
-								<li><a href="category.html">Business</a></li>
-								<li><a href="category.html">Politics</a></li>
-							</ul>
-						</div>
-						<div class="col-2 text-end">
+						<div class="col-6 text-end">
 							<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light">
 								<span></span>
 							</a>
-							<form action="#" class="search-form d-none d-lg-inline-block">
-								<input type="text" class="form-control" placeholder="Search...">
-								<span class="bi-search"></span>
-							</form>
+
+							<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu mx-auto">
+								{{-- <li class="active"><a href="index.html">Home</a></li> --}}
+								<li><a href="category.html">Documantation</a></li>
+								<li><a href="category.html">About</a></li>
+								<li><a href="category.html">Policies</a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -103,7 +73,7 @@
 				<div class="col-md-4">
 					<a href="single.html" class="h-entry mb-30 v-height gradient">
 
-						<div class="featured-img" style="background-image: url('images/img_2_horizontal.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_2_horizontal.jpg');"></div>
 
 						<div class="text">
 							<span class="date">Apr. 14th, 2022</span>
@@ -112,7 +82,7 @@
 					</a>
 					<a href="single.html" class="h-entry v-height gradient">
 
-						<div class="featured-img" style="background-image: url('images/img_5_horizontal.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_5_horizontal.jpg');"></div>
 
 						<div class="text">
 							<span class="date">Apr. 14th, 2022</span>
@@ -123,7 +93,7 @@
 				<div class="col-md-4">
 					<a href="single.html" class="h-entry img-5 h-100 gradient">
 
-						<div class="featured-img" style="background-image: url('images/img_1_vertical.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_1_vertical.jpg');"></div>
 
 						<div class="text">
 							<span class="date">Apr. 14th, 2022</span>
@@ -134,7 +104,7 @@
 				<div class="col-md-4">
 					<a href="single.html" class="h-entry mb-30 v-height gradient">
 
-						<div class="featured-img" style="background-image: url('images/img_3_horizontal.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_3_horizontal.jpg');"></div>
 
 						<div class="text">
 							<span class="date">Apr. 14th, 2022</span>
@@ -143,7 +113,7 @@
 					</a>
 					<a href="single.html" class="h-entry v-height gradient">
 
-						<div class="featured-img" style="background-image: url('images/img_4_horizontal.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_4_horizontal.jpg');"></div>
 
 						<div class="text">
 							<span class="date">Apr. 14th, 2022</span>
@@ -171,7 +141,7 @@
 						<div class="col-md-6">
 							<div class="blog-entry">
 								<a href="single.html" class="img-link">
-									<img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
+									<img src="/assets/images/img_1_sq.jpg" alt="Image" class="img-fluid">
 								</a>
 								<span class="date">Apr. 14th, 2022</span>
 								<h2><a href="single.html">Thought you loved Python? Wait until you meet Rust</a></h2>
@@ -182,7 +152,7 @@
 						<div class="col-md-6">
 							<div class="blog-entry">
 								<a href="single.html" class="img-link">
-									<img src="images/img_2_sq.jpg" alt="Image" class="img-fluid">
+									<img src="/assets/images/img_2_sq.jpg" alt="Image" class="img-fluid">
 								</a>
 								<span class="date">Apr. 14th, 2022</span>
 								<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
@@ -228,7 +198,7 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="blog-entry">
 						<a href="single.html" class="img-link">
-							<img src="images/img_1_horizontal.jpg" alt="Image" class="img-fluid">
+							<img src="/assets/images/img_1_horizontal.jpg" alt="Image" class="img-fluid">
 						</a>
 						<span class="date">Apr. 14th, 2022</span>
 						<h2><a href="single.html">Thought you loved Python? Wait until you meet Rust</a></h2>
@@ -239,7 +209,7 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="blog-entry">
 						<a href="single.html" class="img-link">
-							<img src="images/img_2_horizontal.jpg" alt="Image" class="img-fluid">
+							<img src="/assets/images/img_2_horizontal.jpg" alt="Image" class="img-fluid">
 						</a>
 						<span class="date">Apr. 14th, 2022</span>
 						<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
@@ -250,7 +220,7 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="blog-entry">
 						<a href="single.html" class="img-link">
-							<img src="images/img_3_horizontal.jpg" alt="Image" class="img-fluid">
+							<img src="/assets/images/img_3_horizontal.jpg" alt="Image" class="img-fluid">
 						</a>
 						<span class="date">Apr. 14th, 2022</span>
 						<h2><a href="single.html">UK sees highest inflation in 30 years</a></h2>
@@ -261,7 +231,7 @@
 				<div class="col-md-6 col-lg-3">
 					<div class="blog-entry">
 						<a href="single.html" class="img-link">
-							<img src="images/img_4_horizontal.jpg" alt="Image" class="img-fluid">
+							<img src="/assets/images/img_4_horizontal.jpg" alt="Image" class="img-fluid">
 						</a>
 						<span class="date">Apr. 14th, 2022</span>
 						<h2><a href="single.html">Don’t assume your user data in the cloud is safe</a></h2>
@@ -289,7 +259,7 @@
 						<div class="col-md-6">
 							<div class="blog-entry">
 								<a href="single.html" class="img-link">
-									<img src="images/img_1_sq.jpg" alt="Image" class="img-fluid">
+									<img src="/assets/images/img_1_sq.jpg" alt="Image" class="img-fluid">
 								</a>
 								<span class="date">Apr. 14th, 2022</span>
 								<h2><a href="single.html">Thought you loved Python? Wait until you meet Rust</a></h2>
@@ -300,7 +270,7 @@
 						<div class="col-md-6">
 							<div class="blog-entry">
 								<a href="single.html" class="img-link">
-									<img src="images/img_2_sq.jpg" alt="Image" class="img-fluid">
+									<img src="/assets/images/img_2_sq.jpg" alt="Image" class="img-fluid">
 								</a>
 								<span class="date">Apr. 14th, 2022</span>
 								<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
@@ -351,13 +321,13 @@
 			<div class="row">
 				<div class="col-lg-4 mb-4">
 					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_7_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<a href="single.html" class="img-link"><img src="/assets/images/img_7_horizontal.jpg" alt="Image" class="img-fluid"></a>
 						<div class="excerpt">
 
 
 							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
 							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_1.jpg" alt="Image" class="img-fluid"></figure>
 								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
 								<span>&nbsp;-&nbsp; July 19, 2019</span>
 							</div>
@@ -369,13 +339,13 @@
 				</div>
 				<div class="col-lg-4 mb-4">
 					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_6_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<a href="single.html" class="img-link"><img src="/assets/images/img_6_horizontal.jpg" alt="Image" class="img-fluid"></a>
 						<div class="excerpt">
 
 
 							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
 							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_2.jpg" alt="Image" class="img-fluid"></figure>
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_2.jpg" alt="Image" class="img-fluid"></figure>
 								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
 								<span>&nbsp;-&nbsp; July 19, 2019</span>
 							</div>
@@ -387,69 +357,13 @@
 				</div>
 				<div class="col-lg-4 mb-4">
 					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_5_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<a href="single.html" class="img-link"><img src="/assets/images/img_5_horizontal.jpg" alt="Image" class="img-fluid"></a>
 						<div class="excerpt">
 
 
 							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
 							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_3.jpg" alt="Image" class="img-fluid"></figure>
-								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
-								<span>&nbsp;-&nbsp; July 19, 2019</span>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
-							<p><a href="#" class="read-more">Continue Reading</a></p>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="col-lg-4 mb-4">
-					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_4_horizontal.jpg" alt="Image" class="img-fluid"></a>
-						<div class="excerpt">
-
-
-							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
-							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_4.jpg" alt="Image" class="img-fluid"></figure>
-								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
-								<span>&nbsp;-&nbsp; July 19, 2019</span>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
-							<p><a href="#" class="read-more">Continue Reading</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 mb-4">
-					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_3_horizontal.jpg" alt="Image" class="img-fluid"></a>
-						<div class="excerpt">
-
-
-							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
-							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_5.jpg" alt="Image" class="img-fluid"></figure>
-								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
-								<span>&nbsp;-&nbsp; July 19, 2019</span>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
-							<p><a href="#" class="read-more">Continue Reading</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 mb-4">
-					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_2_horizontal.jpg" alt="Image" class="img-fluid"></a>
-						<div class="excerpt">
-
-
-							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
-							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_4.jpg" alt="Image" class="img-fluid"></figure>
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_3.jpg" alt="Image" class="img-fluid"></figure>
 								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
 								<span>&nbsp;-&nbsp; July 19, 2019</span>
 							</div>
@@ -463,13 +377,13 @@
 
 				<div class="col-lg-4 mb-4">
 					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_1_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<a href="single.html" class="img-link"><img src="/assets/images/img_4_horizontal.jpg" alt="Image" class="img-fluid"></a>
 						<div class="excerpt">
 
 
 							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
 							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_3.jpg" alt="Image" class="img-fluid"></figure>
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_4.jpg" alt="Image" class="img-fluid"></figure>
 								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
 								<span>&nbsp;-&nbsp; July 19, 2019</span>
 							</div>
@@ -481,14 +395,70 @@
 				</div>
 				<div class="col-lg-4 mb-4">
 					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_4_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<a href="single.html" class="img-link"><img src="/assets/images/img_3_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+
+
+							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_5.jpg" alt="Image" class="img-fluid"></figure>
+								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
+								<span>&nbsp;-&nbsp; July 19, 2019</span>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
+							<p><a href="#" class="read-more">Continue Reading</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="post-entry-alt">
+						<a href="single.html" class="img-link"><img src="/assets/images/img_2_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+
+
+							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_4.jpg" alt="Image" class="img-fluid"></figure>
+								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
+								<span>&nbsp;-&nbsp; July 19, 2019</span>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
+							<p><a href="#" class="read-more">Continue Reading</a></p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 mb-4">
+					<div class="post-entry-alt">
+						<a href="single.html" class="img-link"><img src="/assets/images/img_1_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<div class="excerpt">
+
+
+							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
+							<div class="post-meta align-items-center text-left clearfix">
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_3.jpg" alt="Image" class="img-fluid"></figure>
+								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
+								<span>&nbsp;-&nbsp; July 19, 2019</span>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
+							<p><a href="#" class="read-more">Continue Reading</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 mb-4">
+					<div class="post-entry-alt">
+						<a href="single.html" class="img-link"><img src="/assets/images/img_4_horizontal.jpg" alt="Image" class="img-fluid"></a>
 						<div class="excerpt">
 
 
 
 							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
 							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_2.jpg" alt="Image" class="img-fluid"></figure>
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_2.jpg" alt="Image" class="img-fluid"></figure>
 								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
 								<span>&nbsp;-&nbsp; July 19, 2019</span>
 							</div>
@@ -499,14 +469,14 @@
 				</div>
 				<div class="col-lg-4 mb-4">
 					<div class="post-entry-alt">
-						<a href="single.html" class="img-link"><img src="images/img_3_horizontal.jpg" alt="Image" class="img-fluid"></a>
+						<a href="single.html" class="img-link"><img src="/assets/images/img_3_horizontal.jpg" alt="Image" class="img-fluid"></a>
 						<div class="excerpt">
 
 
 
 							<h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
 							<div class="post-meta align-items-center text-left clearfix">
-								<figure class="author-figure mb-0 me-3 float-start"><img src="images/person_5.jpg" alt="Image" class="img-fluid"></figure>
+								<figure class="author-figure mb-0 me-3 float-start"><img src="/assets/images/person_5.jpg" alt="Image" class="img-fluid"></figure>
 								<span class="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
 								<span>&nbsp;-&nbsp; July 19, 2019</span>
 							</div>
@@ -535,7 +505,7 @@
 
 				<div class="col-md-5 order-md-2">
 					<a href="single.html" class="hentry img-1 h-100 gradient">
-						<div class="featured-img" style="background-image: url('images/img_2_vertical.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_2_vertical.jpg');"></div>
 						<div class="text">
 							<span>February 12, 2019</span>
 							<h2>Meta unveils fees on metaverse sales</h2>
@@ -546,7 +516,7 @@
 				<div class="col-md-7">
 
 					<a href="single.html" class="hentry img-2 v-height mb30 gradient">
-						<div class="featured-img" style="background-image: url('images/img_1_horizontal.jpg');"></div>
+						<div class="featured-img" style="background-image: url('/assets/images/img_1_horizontal.jpg');"></div>
 						<div class="text text-sm">
 							<span>February 12, 2019</span>
 							<h2>AI can now kill those annoying cookie pop-ups</h2>
@@ -555,14 +525,14 @@
 
 					<div class="two-col d-block d-md-flex justify-content-between">
 						<a href="single.html" class="hentry v-height img-2 gradient">
-							<div class="featured-img" style="background-image: url('images/img_2_sq.jpg');"></div>
+							<div class="featured-img" style="background-image: url('/assets/images/img_2_sq.jpg');"></div>
 							<div class="text text-sm">
 								<span>February 12, 2019</span>
 								<h2>Don’t assume your user data in the cloud is safe</h2>
 							</div>
 						</a>
 						<a href="single.html" class="hentry v-height img-2 ms-auto float-end gradient">
-							<div class="featured-img" style="background-image: url('images/img_3_sq.jpg');"></div>
+							<div class="featured-img" style="background-image: url('/assets/images/img_3_sq.jpg');"></div>
 							<div class="text text-sm">
 								<span>February 12, 2019</span>
 								<h2>Startup vs corporate: What job suits you best?</h2>
@@ -625,7 +595,7 @@
 							<ul>
 								<li>
 									<a href="">
-										<img src="images/img_1_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+										<img src="/assets/images/img_1_sq.jpg" alt="Image placeholder" class="me-4 rounded">
 										<div class="text">
 											<h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
 											<div class="post-meta">
@@ -636,7 +606,7 @@
 								</li>
 								<li>
 									<a href="">
-										<img src="images/img_2_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+										<img src="/assets/images/img_2_sq.jpg" alt="Image placeholder" class="me-4 rounded">
 										<div class="text">
 											<h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
 											<div class="post-meta">
@@ -647,7 +617,7 @@
 								</li>
 								<li>
 									<a href="">
-										<img src="images/img_3_sq.jpg" alt="Image placeholder" class="me-4 rounded">
+										<img src="/assets/images/img_3_sq.jpg" alt="Image placeholder" class="me-4 rounded">
 										<div class="text">
 											<h4>There’s a Cool New Way for Men to Wear Socks and Sandals</h4>
 											<div class="post-meta">
