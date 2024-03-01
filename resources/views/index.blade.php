@@ -67,6 +67,8 @@
 		</div>
 	</nav>
 
+	{{-- Comment --}}
+
 	<section class="section bg-light">
 		<div class="container">
 			<div class="row align-items-stretch retro-layout">
