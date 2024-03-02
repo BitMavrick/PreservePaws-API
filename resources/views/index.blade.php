@@ -30,7 +30,6 @@
 	<title>PreservePaws-API</title>
 </head>
 <body>
-
 	<div class="site-mobile-menu site-navbar-target">
 		<div class="site-mobile-menu-header">
 			<div class="site-mobile-menu-close">
@@ -67,9 +66,20 @@
 		</div>
 	</nav>
 
-	{{-- Comment --}}
-
 	<section class="section bg-light">
+        <div class="container align-items-center mb-4">
+            <div class="text-center">
+                <h1>Need your help to save the planet!</h1>
+                <br>
+                <div class="text">
+                    <h5>In our mission to save endangered species, we're dedicated to preserving biodiversity for the future.
+                        Join us in protecting these majestic creatures and creating a harmonious world where all life thrives.</h5>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
 		<div class="container">
 			<div class="row align-items-stretch retro-layout">
 				<div class="col-md-4">
