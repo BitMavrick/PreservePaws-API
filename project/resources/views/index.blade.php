@@ -68,12 +68,11 @@
 
 	<section class="section bg-light">
         <div class="container align-items-center mb-4">
-            <div class="text-center">
+            <div class="text-center mx-4">
                 <h1>Need your help to save the planet!</h1>
                 <br>
                 <div class="text">
-                    <h5>In our mission to save endangered species, we're dedicated to preserving biodiversity for the future.
-                        Join us in protecting these majestic creatures and creating a harmonious world where all life thrives.</h5>
+                    <h5>This API project aims to serve the acknowledgment of almost extinct animals that need saving. To preserve this animal for a better future and humankind.</h5>
                 </div>
             </div>
         </div>

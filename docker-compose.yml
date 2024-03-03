@@ -1,0 +1,39 @@
+version: "3.1"
+
+networks:
+  laravel-network:
+    driver: bridge
+
+services:
+  laravel-docker:
+    container_name: laravel-docker
+    build: .
+    volumes:
+      - ./project:/var/www/html
+    ports:
+      - "8000:8000" # Map container port 8000 to host port 8000
+    networks:
+      - laravel-network
+
+  db:
+    image: mysql:8.1
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - laravel-network
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - "8088:80"
+    environment:
+      - PMA_ARBITRARY=1
+    networks:
+      - laravel-network
