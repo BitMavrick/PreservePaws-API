@@ -3,5 +3,5 @@ serve:
 
 migrate_fresh:
 	php artisan migrate:fresh
-optimize:
+opt:
 	php artisan optimize
