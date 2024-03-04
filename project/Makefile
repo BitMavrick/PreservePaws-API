@@ -5,3 +5,5 @@ migrate_fresh:
 	php artisan migrate:fresh
 opt:
 	php artisan optimize
+seed:
+	php artisan migrate:fresh --seed
