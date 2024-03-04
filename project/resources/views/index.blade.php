@@ -54,7 +54,7 @@
 							</a>
 
 							<ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu mx-auto">
-								{{-- <li class="active"><a href="index.html">Home</a></li> --}}
+								<li class="active"><a href="index.html">Home</a></li>
 								<li><a href="category.html">API</a></li>
 								<li><a href="category.html">About</a></li>
 								<li><a href="category.html">Policies</a></li>
@@ -151,7 +151,7 @@
 		</div>
 	</section>
 
-	<div class="section bg-light">
+	<div class="bg-light mb-4">
 		<div class="container">
 
 			<div class="row mb-4">
@@ -204,6 +204,9 @@
 
 		</div>
 	</div>
+
+	<br>
+	<br>
 
 
 	<footer class="site-footer">
