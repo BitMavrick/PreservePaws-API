@@ -13,7 +13,6 @@ class WebController extends Controller
         $animals = Animal::orderBy('population_count_est', 'asc')->take(11)->get();
 
         View()->share('animals', $animals);
-        // dd($animals);
         return view('index');
     }
 }
