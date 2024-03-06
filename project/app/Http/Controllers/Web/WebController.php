@@ -15,4 +15,8 @@ class WebController extends Controller
         View()->share('animals', $animals);
         return view('index');
     }
+
+    public function details() {
+        return view('details');
+    }
 }
